@@ -1,3 +1,9 @@
 body, html {
   font-family: Inter;
 }
+.card--panel {
+  display: flex;
+}
+.card--panel > .card {
+  margin-left: 10px;
+}

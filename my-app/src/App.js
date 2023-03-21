@@ -8,7 +8,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card />
+      <div class="card--panel">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
